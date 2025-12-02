@@ -374,12 +374,16 @@ public class RA_handson {
 	} 
 	
 	
+	
+	//--------------ch8-----------//
 	@Test
 	public void jsonschema() {
-		RestAssured.baseURI = "https://restful-booker.herokuapp.com";
-		RestAssured.basePath = "/booking";
+		RestAssured.baseURI = " http://universities.hipolabs.com";
+				
+		Response response = RestAssured.given().get("/search?country=United+States");
 		
+		System.out.println(response.prettyPrint());		
 		
 	}
-	
+
 }

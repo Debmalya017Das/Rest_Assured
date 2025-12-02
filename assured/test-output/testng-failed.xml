@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rest.assured.RA_handson">
+      <class name="com.rest.assured.RestTest">
         <methods>
-          <include name="header"/>
+          <include name="createxml"/>
         </methods>
-      </class> <!-- com.rest.assured.RA_handson -->
+      </class> <!-- com.rest.assured.RestTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
